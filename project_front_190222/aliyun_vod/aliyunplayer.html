@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://g.alicdn.com/de/prismplayer/2.8.1/skins/default/aliplayer-min.css" />
+    <script charset="utf-8" 
+        type="text/javascript" 
+        src="https://g.alicdn.com/de/prismplayer/2.8.1/aliplayer-min.js">
+    </script>
+</head>
+<body>
+    <div  class="prism-player" id="J_prismPlayer"></div>
+    <script>
+        var player = new Aliplayer({
+            id: 'J_prismPlayer',
+            width: '100%',
+            autoplay: false,
+            cover: 'http://liveroom-img.oss-cn-qingdao.aliyuncs.com/logo.png',
+           // source:'http://1902220401.guli.shop/f467e0b386394b2a93c68af551103383/0e641b634b1841d2abd008f6cb85f701-8f422ede9a32dd395f531234d7c041dc-fd-encrypt-stream.m3u8',
+            encryptType:'1',//如果播放加密视频，则需设置encryptType=1，非加密视频无需设置此项  
+            //播放配置
+            vid : 'f467e0b386394b2a93c68af551103383',
+            playauth : 'eyJTZWN1cml0eVRva2VuIjoiQ0FJUzN3SjFxNkZ0NUIyeWZTaklyNHZ4TDR2U2xZaEp4cmUrYjNUcG8yVnRRdGxkbUlmNnR6ejJJSDlJZEhWb0FPOGZ2dlUwbTJ0WTdQc1psck1xRU1jVkdSS2NNSnNodGNzSnJsMzRKcExGc3QySjZyOEpqc1U5dTkxYW9WdXBzdlhKYXNEVkVma3VFNVhFTWlJNS8wMGU2TC8rY2lyWVhEN0JHSmFWaUpsaFE4MEtWdzJqRjFSdkQ4dFhJUTBRazYxOUszemRaOW1nTGlidWkzdnhDa1J2MkhCaWptOHR4cW1qL015UTV4MzFpMXYweStCM3dZSHRPY3FjYThCOU1ZMVdUc3Uxdm9oemFyR1Q2Q3BaK2psTStxQVU2cWxZNG1YcnM5cUhFa0ZOd0JpWFNaMjJsT2RpTndoa2ZLTTNOcmRacGZ6bjc1MUN0L2ZVaXA3OHhtUW1YNGdYY1Z5R0ZkN3drWk9aUXJ6emJZMWtMdTZpQVJtWGpJRFRiS3VTbWhnL2ZIY1dPRGxOZjljY01YSnFBWFF1TUdxRmR2LzdvQW1WTzFmeUVQZmVnUHRyaW9BSjVsSHA3TWVNR1YrRGVMeVF5aDBFSWFVN2EwNDRtc0dVYjlOZnBjUWFnQUViRUtHbEV3VllyOTdVSUh5eUtmZlNVSDZJd0pWZ3BEVjdTMzNYa1dNRkVXOExSb01vcHB6TzhnbUhpbytrWnRMNTdGNS9qOVhTeW5LSmRlT0JvUFBLNzlmUlFxbzhmTmlVdUFiemJTQUVJeFRvYmNBWUpJNUcwUysvVEl1eVFpMTdlSHcvTmZQdHpnbEJVcm1JQkZyOTdmei9OcDZHak1ENThnYWwzZVFKVVE9PSIsIkF1dGhJbmZvIjoie1wiQ0lcIjpcIlB6NVBHQ3J1SjF3MXhCYTBnZHVGZWJCSVloNC9SYnhJdWU1SWlRNTNpSHhLYzIvUFFsaWhqZmdWR08yVEU2SWs1UGVrYW44ZTdzTlRcXHJcXG41dlFWcUtaaFkvUWdDYjlTbjJnQ1BGQVZvT2c2aFVBPVxcclxcblwiLFwiQ2FsbGVyXCI6XCJ4amppK3BaRmgwMlVzK21jQk9USkRTRWovbm1EOHFCeFlWU1lzQ1QrN1pjPVxcclxcblwiLFwiRXhwaXJlVGltZVwiOlwiMjAxOS0wNy0yNFQxMjo1MTo0NlpcIixcIk1lZGlhSWRcIjpcImY0NjdlMGIzODYzOTRiMmE5M2M2OGFmNTUxMTAzMzgzXCIsXCJQbGF5RG9tYWluXCI6XCIxOTAyMjIwNDAxLmd1bGkuc2hvcFwiLFwiU2lnbmF0dXJlXCI6XCIrWGUrT2E1Q29ackRBbU1aSW0zVk5lcmVhRU09XCJ9IiwiVmlkZW9NZXRhIjp7IlN0YXR1cyI6Ik5vcm1hbCIsIlZpZGVvSWQiOiJmNDY3ZTBiMzg2Mzk0YjJhOTNjNjhhZjU1MTEwMzM4MyIsIlRpdGxlIjoiMyAtIEhvdyBEb2VzIFByb2plY3QgU3VibWlzc2lvbiBXb3JrLm1wNCIsIkNvdmVyVVJMIjoiaHR0cDovLzE5MDIyMjA0MDEuZ3VsaS5zaG9wL2Y0NjdlMGIzODYzOTRiMmE5M2M2OGFmNTUxMTAzMzgzL3NuYXBzaG90cy8yZjc0NWI4YTllZDc0MTFjYTcyZjRlMTI5ZDk1MTYxMy0wMDAwMi5qcGciLCJEdXJhdGlvbiI6MzEuNjI1fSwiQWNjZXNzS2V5SWQiOiJTVFMuTkhEZDFmeFdocXVVbVJYR2U4TlZxd0JRVSIsIlBsYXlEb21haW4iOiIxOTAyMjIwNDAxLmd1bGkuc2hvcCIsIkFjY2Vzc0tleVNlY3JldCI6Ijlpb3MxR0NWQXVudHBCaWlnRnBnM0JWWldRNGJhVmlMUDdHNVBVR0pxOUhRIiwiUmVnaW9uIjoiY24tc2hhbmdoYWkiLCJDdXN0b21lcklkIjoxMzA4NDYwNTg5Mzc2NzYxfQ'
+        },function(player){
+            console.log('播放器创建好了。')
+        });
+    </script>
+    
+</body>
+</html>
+
+

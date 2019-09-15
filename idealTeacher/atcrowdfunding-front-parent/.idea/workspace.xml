@@ -1,0 +1,1160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="297c8c6e-a600-493e-a5cc-3e580ae08407" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/java/com/atguigu/atcrowdfunding/app/component" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/java/com/atguigu/atcrowdfunding/app/component/OssTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/java/com/atguigu/atcrowdfunding/app/config" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/java/com/atguigu/atcrowdfunding/app/config/AppMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/java/com/atguigu/atcrowdfunding/app/config/FeignConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/java/com/atguigu/atcrowdfunding/app/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/java/com/atguigu/atcrowdfunding/app/controller/PageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/java/com/atguigu/atcrowdfunding/app/controller/ProjectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/java/com/atguigu/atcrowdfunding/app/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/java/com/atguigu/atcrowdfunding/app/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/java/com/atguigu/atcrowdfunding/app/service/feign" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/java/com/atguigu/atcrowdfunding/app/service/feign/ProjectFeignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/java/com/atguigu/atcrowdfunding/app/service/feign/UserServiceFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/resources" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/bootstrap" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/bootstrap/css" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/bootstrap/fonts" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/bootstrap/js" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/bootstrap/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/css" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/css/carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/css/doc.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/css/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/fonts" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/fonts/fontawesome4.2" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/fonts/fontawesome4.2/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/fonts/fontawesome4.2/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/fonts/fontawesome4.2/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/fonts/fontawesome4.2/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/fonts/fontawesome4.2/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/img" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/img/carousel-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/img/carousel-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/img/carousel-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/img/p1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/img/p2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/img/p3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/img/p3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/img/pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/img/product-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/img/product-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/img/product-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/img/product-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/img/product-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/img/product-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/img/product-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/img/product-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/img/product-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/img/product_detail_body.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/img/product_detail_head.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/img/services-box1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/img/services-box2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/img/services-box3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/img/services-box4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/jquery" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/jquery/jQuery-form-serializer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/jquery/jquery-2.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/jquery/jquery-form.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/jquery/jquery.pagination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/layer" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/layer/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/layer/mobile" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/layer/mobile/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/layer/mobile/need" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/layer/mobile/need/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/layer/theme" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/layer/theme/default" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/layer/theme/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/layer/theme/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/layer/theme/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/layer/theme/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/layer/theme/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/layer/theme/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/script" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/script/back-to-top.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/script/docs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/script/echarts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/ztree" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/ztree/img" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/ztree/img/diy" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/ztree/img/diy/1_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/ztree/img/diy/1_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/ztree/img/diy/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/ztree/img/diy/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/ztree/img/diy/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/ztree/img/diy/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/ztree/img/diy/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/ztree/img/diy/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/ztree/img/diy/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/ztree/img/diy/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/ztree/img/line_conn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/ztree/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/ztree/img/zTreeStandard.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/ztree/img/zTreeStandard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/ztree/jquery.ztree.all-3.5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/ztree/zTreeStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/templates/include" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/templates/include/include.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/templates/protected" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/templates/protected/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/templates/protected/member" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/templates/protected/member.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/templates/protected/member/minecrowdfunding.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/templates/protected/project" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/templates/protected/project/project.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/templates/protected/project/start-step-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/templates/protected/project/start-step-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/templates/protected/project/start-step-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/templates/protected/project/start-step-4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/templates/protected/project/start.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/templates/reg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atcrowdfunding-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atcrowdfunding-app/src/main/java/com/atguigu/atcrowdfunding/app/AtcrowdfundingAppApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/java/com/atguigu/atcrowdfunding/app/AtcrowdfundingAppApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atcrowdfunding-front-commons/src/main/java/com/atguigu/front/bean/TTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-front-commons/src/main/java/com/atguigu/front/bean/TTag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atcrowdfunding-project/src/main/java/com/atguigu/project/controller/ProjectCreateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-project/src/main/java/com/atguigu/project/controller/ProjectCreateController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atcrowdfunding-project/src/main/java/com/atguigu/project/controller/ProjectInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-project/src/main/java/com/atguigu/project/controller/ProjectInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atcrowdfunding-project/src/main/java/com/atguigu/project/dao/TProjectMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-project/src/main/java/com/atguigu/project/dao/TProjectMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atcrowdfunding-project/src/main/java/com/atguigu/project/service/ProjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-project/src/main/java/com/atguigu/project/service/ProjectService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atcrowdfunding-project/src/main/java/com/atguigu/project/service/impl/ProjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-project/src/main/java/com/atguigu/project/service/impl/ProjectServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atcrowdfunding-project/src/main/java/com/atguigu/project/vo" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/atcrowdfunding-project/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-project/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atcrowdfunding-project/src/main/resources/mybatis/mapper/TProjectMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-project/src/main/resources/mybatis/mapper/TProjectMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atcrowdfunding-user/src/main/java/com/atguigu/atcrowdfunding/user/AtcrowdfundingUserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-user/src/main/java/com/atguigu/atcrowdfunding/user/AtcrowdfundingUserApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atcrowdfunding-user/src/main/java/com/atguigu/atcrowdfunding/user/controller/UserLoginRegistController.java" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-user/src/main/java/com/atguigu/atcrowdfunding/user/controller/UserLoginRegistController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atcrowdfunding-user/src/main/java/com/atguigu/atcrowdfunding/user/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-user/src/main/java/com/atguigu/atcrowdfunding/user/service/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atcrowdfunding-user/src/main/java/com/atguigu/atcrowdfunding/user/service/impl/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-user/src/main/java/com/atguigu/atcrowdfunding/user/service/impl/MemberServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atcrowdfunding-user/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-user/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atcrowdfunding-user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-user/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/atcrowdfunding-front-commons/target/" />
+    <ignored path="$PROJECT_DIR$/atcrowdfunding-app/target/" />
+    <ignored path="$PROJECT_DIR$/atcrowdfunding-project/target/" />
+    <ignored path="$PROJECT_DIR$/atcrowdfunding-user/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/atcrowdfunding-order/target/" />
+    <ignored path=".idea/vcs.xml" />
+    <ignored path="$PROJECT_DIR$/alipay-test/target/" />
+    <ignored mask="*.gitignore" />
+    <ignored path="alipay-test/.mvn/" />
+    <ignored mask="*.iml" />
+    <ignored mask="mvnw" />
+    <ignored mask="*.cmd" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="spring-beans.schema" />
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>LoginKeyExpireFilter</find>
+      <find>insertSelective</find>
+      <find>AlipayConfigAAA</find>
+      <find>fundChannel</find>
+      <find>发起众筹</find>
+      <find>阅读并同意协议</find>
+      <find>下一步</find>
+      <find>baseInfoForm</find>
+      <find>uploadHeaderInput</find>
+      <find>openReturnAddModal</find>
+      <find>returnForm</find>
+      <find>submitReturn</find>
+      <find>开启智慧未来</find>
+      <find>GB18030</find>
+      <find>11[]</find>
+      <find>50000.00</find>
+      <find>img/product_detail_head.jpg</find>
+      <find>tagSelectSpan</find>
+      <find>register</find>
+      <find>我的</find>
+      <find>跨域</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>AlipayConfig</replace>
+      <replace>UTF-8</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/alipay-test/src/main/resources/templates/order.html" />
+        <option value="$PROJECT_DIR$/alipay-test/src/main/java/com/atguigu/alipaytest/config/AlipayConfig.java" />
+        <option value="$PROJECT_DIR$/alipay-test/src/main/java/com/atguigu/alipaytest/vo/PayAsyncVo.java" />
+        <option value="$PROJECT_DIR$/alipay-test/src/main/java/com/atguigu/alipaytest/controller/PayController.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/public/index.html" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-app/src/main/java/com/atguigu/atcrowdfunding/app/AtcrowdfundingAppApplication.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/mvc.xml" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-user/src/main/java/com/atguigu/atcrowdfunding/user/service/feign/UserServiceFeign.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/templates/login.html" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/templates/include/topbar.html" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/templates/include/include.html" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-user/src/main/java/com/atguigu/atcrowdfunding/user/AtcrowdfundingUserApplication.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-user/src/main/java/com/atguigu/atcrowdfunding/user/config/FeignConfig.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-app/src/main/java/com/atguigu/atcrowdfunding/app/service/feign/UserServiceFeign.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-app/src/main/java/com/atguigu/atcrowdfunding/app/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/templates/protected/member.html" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/templates/protected/member/minecrowdfunding.html" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/templates/protected/project/start.html" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/templates/protected/project/start-step-4.html" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-app/src/main/java/com/atguigu/atcrowdfunding/app/component/OssTemplate.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-app/pom.xml" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/templates/protected/project/start-step-1.html" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/static/jquery/jQuery-form-serializer.js" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-front-commons/src/main/java/com/atguigu/front/vo/req/ProjectReturnVo.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-front-commons/src/main/java/com/atguigu/front/vo/ProjectRedisStorageVo.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-app/src/main/java/com/atguigu/atcrowdfunding/app/config/AppMvcConfig.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/templates/protected/project/start-step-2.html" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/templates/protected/project/start-step-3.html" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-front-commons/src/main/java/com/atguigu/front/vo/req/ProjectBaseInfoVo.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-project/src/main/java/com/atguigu/project/controller/ProjectCreateController.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-project/src/main/java/com/atguigu/project/dao/TProjectMapper.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-project/src/main/resources/mybatis/mapper/TProjectMapper.xml" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-front-commons/src/main/java/com/atguigu/front/vo/resp/ProjectAllInfoVo.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-app/src/main/java/com/atguigu/atcrowdfunding/app/controller/PageController.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/templates/protected/index.html" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-project/src/main/java/com/atguigu/project/service/ProjectService.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-project/src/main/java/com/atguigu/project/service/impl/ProjectServiceImpl.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-project/src/main/java/com/atguigu/project/controller/ProjectInfoController.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-app/src/main/java/com/atguigu/atcrowdfunding/app/service/feign/ProjectFeignService.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-front-commons/src/main/java/com/atguigu/front/vo/resp/ProjectAllAllInfoVo.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-app/src/main/java/com/atguigu/atcrowdfunding/app/controller/ProjectController.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/templates/protected/project/project.html" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-user/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-user/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-project/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/templates/reg.html" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-user/src/main/java/com/atguigu/atcrowdfunding/user/controller/UserLoginRegistController.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-front-commons/src/main/java/com/atguigu/front/bean/TTag.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../Devsoft/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="H:\Devsoft\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="15" />
+    <option name="y" value="15" />
+    <option name="width" value="1346" />
+    <option name="height" value="698" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="ExpandSpringBootSpringBootSettingsPanel" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/templates/protected/project" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.atguigu.project.service" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.atguigu.project" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\atcrowdfunding-front-parent\atcrowdfunding-app\src\main\resources\templates\protected\project" />
+      <recent name="H:\atcrowdfunding-front-parent\atcrowdfunding-app\src\main\resources\templates\protected\member" />
+      <recent name="H:\atcrowdfunding-front-parent\atcrowdfunding-app\src\main\resources\static" />
+      <recent name="H:\atcrowdfunding-front-parent\atcrowdfunding-app\src\main\resources\protected" />
+      <recent name="H:\atcrowdfunding-front-parent\atcrowdfunding-app\src\main\resources\templates" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu.atcrowdfunding.app.component" />
+      <recent name="com.atguigu.front.exception" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\atcrowdfunding-front-parent\atcrowdfunding-app\src\main\resources\templates\protected" />
+      <recent name="H:\atcrowdfunding-front-parent\atcrowdfunding-app\src\main\resources\templates" />
+      <recent name="H:\atcrowdfunding-front-parent\atcrowdfunding-app\src\main\resources\public" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.32689336" />
+  </component>
+  <component name="RunManager" selected="Compound.尚筹网">
+    <configuration name="尚筹网" type="CompoundRunConfigurationType">
+      <toRun name="AtcrowdfundingUserApplication" type="SpringBootApplicationConfigurationType" />
+      <toRun name="AtcrowdfundingAppApplication" type="SpringBootApplicationConfigurationType" />
+      <toRun name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" />
+      <toRun name="AtcrowdfundingProjectApplication" type="SpringBootApplicationConfigurationType" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="CompoundRunConfigurationType">
+      <toRun name="AtcrowdfundingProjectApplication" type="SpringBootApplicationConfigurationType" />
+      <toRun name="AtcrowdfundingUserApplication" type="SpringBootApplicationConfigurationType" />
+      <toRun name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" />
+      <method v="2" />
+    </configuration>
+    <configuration name="AtcrowdfundingProjectApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="atcrowdfunding-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.project" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.project.AtcrowdfundingProjectApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AtcrowdfundingProjectApplicationTests.testossTemplate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="atcrowdfunding-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.project" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.project.AtcrowdfundingProjectApplicationTests" />
+      <option name="METHOD_NAME" value="testossTemplate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AtcrowdfundingUserApplicationTests.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="atcrowdfunding-user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.atcrowdfunding.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.atcrowdfunding.user" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.atcrowdfunding.user.AtcrowdfundingUserApplicationTests" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlipayTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="alipay-test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.alipaytest.AlipayTestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AtcrowdfundingAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="atcrowdfunding-app" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.atcrowdfunding.app.AtcrowdfundingAppApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AtcrowdfundingProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="atcrowdfunding-project" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.project.AtcrowdfundingProjectApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AtcrowdfundingUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="atcrowdfunding-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.atcrowdfunding.user.AtcrowdfundingUserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AtcrowfundingOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="atcrowdfunding-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.atcrowfunding.order.AtcrowfundingOrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.eureka.server.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Compound.尚筹网" />
+      <item itemvalue="JUnit.AtcrowdfundingProjectApplicationTests.contextLoads" />
+      <item itemvalue="JUnit.AtcrowdfundingProjectApplicationTests.testossTemplate" />
+      <item itemvalue="JUnit.AtcrowdfundingUserApplicationTests.test01" />
+      <item itemvalue="Spring Boot.AtcrowdfundingAppApplication" />
+      <item itemvalue="Spring Boot.AtcrowdfundingProjectApplication" />
+      <item itemvalue="Spring Boot.AtcrowdfundingUserApplication" />
+      <item itemvalue="Spring Boot.AtcrowfundingOrderApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.AlipayTestApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AtcrowdfundingUserApplicationTests.test01" />
+        <item itemvalue="JUnit.AtcrowdfundingProjectApplicationTests.testossTemplate" />
+        <item itemvalue="JUnit.AtcrowdfundingProjectApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\hong\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="F:\idealTeacher\atcrowdfunding-front-parent" />
+          <option name="myCopyRoot" value="F:\idealTeacher\atcrowdfunding-front-parent" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="F:\idealTeacher\atcrowdfunding-front-parent\alipay-test" />
+          <option name="myCopyRoot" value="F:\idealTeacher\atcrowdfunding-front-parent\alipay-test" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="F:\idealTeacher\atcrowdfunding-front-parent\atcrowdfunding-app" />
+          <option name="myCopyRoot" value="F:\idealTeacher\atcrowdfunding-front-parent\atcrowdfunding-app" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="F:\idealTeacher\atcrowdfunding-front-parent\atcrowdfunding-front-commons" />
+          <option name="myCopyRoot" value="F:\idealTeacher\atcrowdfunding-front-parent\atcrowdfunding-front-commons" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="F:\idealTeacher\atcrowdfunding-front-parent\atcrowdfunding-order" />
+          <option name="myCopyRoot" value="F:\idealTeacher\atcrowdfunding-front-parent\atcrowdfunding-order" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="F:\idealTeacher\atcrowdfunding-front-parent\atcrowdfunding-project" />
+          <option name="myCopyRoot" value="F:\idealTeacher\atcrowdfunding-front-parent\atcrowdfunding-project" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="F:\idealTeacher\atcrowdfunding-front-parent\atcrowdfunding-user" />
+          <option name="myCopyRoot" value="F:\idealTeacher\atcrowdfunding-front-parent\atcrowdfunding-user" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="F:\idealTeacher\atcrowdfunding-front-parent\eureka-server" />
+          <option name="myCopyRoot" value="F:\idealTeacher\atcrowdfunding-front-parent\eureka-server" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="F:\idealTeacher\atcrowdfunding-front-parent" />
+          <option name="myCopyRoot" value="F:\idealTeacher\atcrowdfunding-front-parent" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="297c8c6e-a600-493e-a5cc-3e580ae08407" name="Default Changelist" comment="" />
+      <created>1560821868535</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560821868535</updated>
+      <workItem from="1560821870000" duration="25369000" />
+      <workItem from="1560904349673" duration="5662000" />
+      <workItem from="1560923394760" duration="5271000" />
+      <workItem from="1560928759079" duration="7082000" />
+      <workItem from="1561078147762" duration="1446000" />
+      <workItem from="1561079641337" duration="28316000" />
+      <workItem from="1561265305237" duration="17860000" />
+    </task>
+    <task id="LOCAL-00001" summary="改了新东西">
+      <created>1560822030746</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1560822030747</updated>
+    </task>
+    <task id="LOCAL-00002" summary="改了新东西">
+      <created>1560822081868</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1560822081868</updated>
+    </task>
+    <task id="LOCAL-00003" summary="项目发布流程完成">
+      <created>1560856733519</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1560856733520</updated>
+    </task>
+    <task id="LOCAL-00004" summary="支付宝整合测试">
+      <created>1560927512262</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1560927512262</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="AtcrowdfundingUserApplicationTests_test01 - 2019.06.18 at 10h 32m 05s.xml">
+      <configuration name="AtcrowdfundingUserApplicationTests.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AtcrowdfundingProjectApplicationTests_contextLoads - 2019.06.18 at 14h 26m 13s.xml">
+      <configuration name="AtcrowdfundingProjectApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AtcrowdfundingProjectApplicationTests_contextLoads - 2019.06.18 at 14h 30m 49s.xml">
+      <configuration name="AtcrowdfundingProjectApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AtcrowdfundingProjectApplicationTests_testossTemplate - 2019.06.18 at 14h 39m 03s.xml">
+      <configuration name="AtcrowdfundingProjectApplicationTests.testossTemplate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AtcrowdfundingProjectApplicationTests_testossTemplate - 2019.06.18 at 14h 40m 13s.xml">
+      <configuration name="AtcrowdfundingProjectApplicationTests.testossTemplate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AtcrowdfundingProjectApplicationTests_testossTemplate - 2019.06.18 at 14h 43m 14s.xml">
+      <configuration name="AtcrowdfundingProjectApplicationTests.testossTemplate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AtcrowdfundingProjectApplicationTests_testossTemplate - 2019.06.18 at 14h 47m 51s.xml">
+      <configuration name="AtcrowdfundingProjectApplicationTests.testossTemplate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AtcrowdfundingProjectApplicationTests_testossTemplate - 2019.06.18 at 14h 48m 47s.xml">
+      <configuration name="AtcrowdfundingProjectApplicationTests.testossTemplate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AtcrowdfundingUserApplicationTests_test01 - 2019.06.18 at 21h 18m 22s.xml">
+      <configuration name="AtcrowdfundingUserApplicationTests.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AtcrowdfundingUserApplicationTests_test01 - 2019.06.18 at 21h 18m 45s.xml">
+      <configuration name="AtcrowdfundingUserApplicationTests.test01" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="113755000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49905837" visible="true" weight="0.17019667" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" sideWeight="0.50094163" side_tool="true" weight="0.3184569" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.048309177" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.25603864" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.2689211" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.17713365" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35325265" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34697217" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.2700491" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.2569558" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.36497545" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="改了新东西" />
+    <MESSAGE value="项目发布流程完成" />
+    <MESSAGE value="支付宝整合测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="支付宝整合测试" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/atcrowdfunding-app/src/main/java/com/atguigu/atcrowdfunding/app/controller/PageController.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/atcrowdfunding-app/src/main/java/com/atguigu/atcrowdfunding/app/controller/ProjectController.java</url>
+          <line>182</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-front-commons/src/main/java/com/atguigu/front/vo/req/BaseVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-front-commons/src/main/java/com/atguigu/front/enume/ProjectStatusEnume.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-front-commons/src/main/java/com/atguigu/front/vo/req/ProjectBaseInfoVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.7.RELEASE/spring-web-5.1.7.RELEASE-sources.jar!/org/springframework/web/bind/annotation/GetMapping.java" />
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-project/src/main/java/com/atguigu/project/dao/TProjectMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-project/src/main/resources/mybatis/mapper/TProjectMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-front-commons/src/main/java/com/atguigu/front/vo/resp/ProjectAllInfoVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-project/src/main/java/com/atguigu/project/dao/TReturnMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="18" column="48" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-project/src/main/java/com/atguigu/project/controller/ProjectInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="86" column="5" selection-start-line="67" selection-start-column="45" selection-end-line="86" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-front-commons/src/main/java/com/atguigu/front/bean/TProject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-front-commons/src/main/java/com/atguigu/front/bean/TReturn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-front-commons/src/main/java/com/atguigu/front/vo/resp/ProjectAllAllInfoVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-project/src/main/java/com/atguigu/project/controller/ProjectOperationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-213">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-user/src/main/java/com/atguigu/atcrowdfunding/user/controller/UserRealAuthController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/templates/protected/member.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="90" column="46" lean-forward="true" selection-start-line="90" selection-start-column="46" selection-end-line="90" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-app/src/main/java/com/atguigu/atcrowdfunding/app/config/FeignConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" selection-start-line="13" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-front-commons/src/main/java/com/atguigu/front/common/AppResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/templates/include/include.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-app/src/main/java/com/atguigu/atcrowdfunding/app/AtcrowdfundingAppApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/templates/protected/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3515">
+          <caret line="185" column="31" selection-start-line="185" selection-start-column="31" selection-end-line="185" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-project/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-project/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-front-commons/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/templates/protected/member/minecrowdfunding.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="108" column="83" selection-start-line="108" selection-start-column="83" selection-end-line="108" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-app/src/main/java/com/atguigu/atcrowdfunding/app/controller/PageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-app/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="69" column="21" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/templates/protected/project/project.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="102" column="44" selection-start-line="102" selection-start-column="44" selection-end-line="102" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-809" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-app/src/main/java/com/atguigu/atcrowdfunding/app/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/templates/reg.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="87" column="38" lean-forward="true" selection-end-line="103" selection-end-column="7" />
+          <folding>
+            <element signature="n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-app/src/main/java/com/atguigu/atcrowdfunding/app/component/OssTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-40">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-app/src/main/java/com/atguigu/atcrowdfunding/app/service/feign/UserServiceFeign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="33" column="54" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="63" lean-forward="true" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-app/src/main/java/com/atguigu/atcrowdfunding/app/config/AppMvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-user/src/main/java/com/atguigu/atcrowdfunding/user/controller/UserInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="103" column="5" selection-start-line="39" selection-start-column="3" selection-end-line="103" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-user/src/main/java/com/atguigu/atcrowdfunding/user/AtcrowdfundingUserApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="61" column="13" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1710" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-user/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-user/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-user/src/main/java/com/atguigu/atcrowdfunding/user/controller/UserLoginRegistController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-project/src/main/java/com/atguigu/project/service/ProjectService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-project/src/main/java/com/atguigu/project/service/impl/ProjectServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1216">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-project/src/main/java/com/atguigu/project/controller/ProjectCreateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-app/src/main/java/com/atguigu/atcrowdfunding/app/service/feign/ProjectFeignService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="45" column="86" selection-start-line="45" selection-start-column="86" selection-end-line="45" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/templates/protected/project/start.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="316" selection-start-line="316" selection-end-line="316" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-app/src/main/resources/templates/protected/project/start-step-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="250" column="46" lean-forward="true" selection-end-line="380" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#form#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#6;n#form#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#7;n#form#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-front-commons/src/main/java/com/atguigu/front/bean/TTag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-app/src/main/java/com/atguigu/atcrowdfunding/app/controller/ProjectController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="186" column="23" selection-start-line="186" selection-start-column="23" selection-end-line="186" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="H:\atcrowdfunding-front-parent\atcrowdfunding-front-commons" />
+    <option value="mybatis-generator:generate" />
+  </component>
+</project>

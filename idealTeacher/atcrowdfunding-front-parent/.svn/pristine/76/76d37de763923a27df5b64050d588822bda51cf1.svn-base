@@ -1,0 +1,90 @@
+package com.atguigu.atcrowdfunding.user.controller;
+
+
+import com.atguigu.atcrowdfunding.user.component.SmsTemplate;
+import com.atguigu.atcrowdfunding.user.vo.req.MemberRegisterVo;
+import com.atguigu.front.bean.TMember;
+import com.atguigu.front.common.AppResponse;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiImplicitParam;
+import io.swagger.annotations.ApiImplicitParams;
+import io.swagger.annotations.ApiOperation;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.UUID;
+
+
+/**
+ * svn：idea各种 颜色；
+ * 菊灰色：没有纳入到版本控制，忽略的文件，提交不带的文件
+ * 橘红色：需要手动告诉svn这些是要忽略还是添加到svn中;
+ *    右键-->add to vcs：添加到版本控制
+ *
+ */
+@Api(tags = "用户登录、注册服务")
+@RestController
+@RequestMapping("/user")
+@Slf4j
+public class UserLoginRegistController {
+
+    @Autowired
+    SmsTemplate smsTemplate;
+
+    @ApiOperation("用户登录")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name = "loginacct",value = "账号（手机号）",required = true),
+            @ApiImplicitParam(name = "password",value = "密码",required = true)
+    })
+    @PostMapping("/login")
+    public AppResponse<TMember> login(@RequestParam(value = "loginacct",required = true) String loginacct,
+                                      @RequestParam(value = "password",required = true) String password){
+
+
+        return null;
+    }
+
+
+    @ApiOperation("用户注册")
+    @PostMapping("/register")
+    public AppResponse<String> register(MemberRegisterVo memberRegisterVo){
+
+        log.debug("{} 用户正在注册：",memberRegisterVo.getMobile());
+
+        return null;
+    }
+
+    @ApiOperation("获取短信验证码")
+    @PostMapping ("/sendsms")
+    public AppResponse<String> sendSms(@RequestParam("mobile") String mobile){
+        String code = UUID.randomUUID().toString().replace("-","").substring(0,5);
+        smsTemplate.sendCodeSms(mobile,code);
+
+        //cookie/session；浏览器
+        /**
+         * 浏览器：
+         *      同一个页面共享：pageContext
+         *      同一次请求：request
+         *      同一次会话：session：Map
+         *      同一个应用：application；
+         *
+         * 多端了；
+         *      同一个页面共享：各端使用自己的方式
+         *      同一次请求共享数据：将数据以json写出去；
+         *      同一次会话：把数据一个公共的地方【redis】，
+         *                ：把数据一个公共的地方【redis】，
+         */
+
+        return AppResponse.success("").msg("短信发送完成");
+    }
+
+    @ApiOperation("重置密码")
+    @PostMapping("/reset")
+    public AppResponse<String> resetPassword(){
+        return null;
+    }
+
+
+
+}

@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: spring-cloud-user-feign
+
+# 将当前服务注册到eureka的核心配置
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+  instance:
+    prefer-ip-address: true  #使用ip地址
+
+
+server:
+  port: 8200
+
+feign:
+  hystrix:
+    enabled: true  #开启feign基于hystrix服务容错功能

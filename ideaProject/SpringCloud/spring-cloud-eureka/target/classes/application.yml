@@ -1,0 +1,18 @@
+# 所有应用都得有自己的名字，不能别人重复
+spring:
+  application:
+    name: spring-cloud-eureka
+
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false  #自己不需要注册在注册中心
+    fetch-registry: false #是否要从注册中心获取其他服务数据
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka #定义eureka服务器来保存各个信息的地方
+
+
+server:
+  port: 8761  # eureka的端口是8761；

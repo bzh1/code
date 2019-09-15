@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- import CSS -->
+    <link rel="stylesheet" href="element-ui/lib/theme-chalk/index.css">
+</head>
+
+<body>
+    <div id="app">
+        <button @click="getTeacherList()">访问</button>
+        <!-- <table>
+            <th>
+                <td>id</td>
+                <td>姓名</td>
+                <td>邮箱</td>
+                <td>级别</td>
+            </th>
+            <tr v-for="item in tercherList">
+                <td>{{item.id}}</td>
+                <td>{{item.name}}</td>
+                <td>{{item.email}}</td>
+                <td>{{item.leaver}}</td>
+            </tr>
+        </table> -->
+        <el-table
+      :data="tercherList"
+      style="width: 100%">
+      <el-table-column
+        prop="id"
+        label="id"
+        width="180">
+      </el-table-column>
+      <el-table-column
+        prop="name"
+        label="姓名"
+        width="180">
+      </el-table-column>
+      <el-table-column
+        prop="email"
+        label="邮箱">
+      </el-table-column>
+      <el-table-column
+        prop="leaver"
+        label="级别">
+      </el-table-column>
+    </el-table>
+    </div>
+    <script src="vue.min.js"></script>
+    <!-- import JavaScript -->
+    <script src="element-ui/lib/index.js"></script>
+    <script src="axios.min.js"></script>
+    <script>
+        new Vue({
+            el: '#app',
+            data: {
+                tercherList: []
+            },
+            //页面渲染成功后展示的数据
+            created () {
+                this.getTeacherList()
+            },
+            methods: {
+                getTeacherList(){
+                    axios.get('http://localhost:8110/admin/edu/teacher').then(Response=>{
+                        console.log(Response)
+                        this.tercherList=Response.data.data.item
+                    })
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>
